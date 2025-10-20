@@ -46,7 +46,7 @@ export default function HomePage() {
                   {/* Cute NFT Character */}
                   <div className="relative">
                     <img
-                      src="cute-kawaii-character-in-jar-pastel-colors.jpg"
+                      src="/cute-kawaii-character-in-jar-pastel-colors.jpg"
                       alt="NFT Character"
                       className="w-48 h-48 object-contain"
                     />
