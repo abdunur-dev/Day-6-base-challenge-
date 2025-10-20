@@ -1,0 +1,13 @@
+{
+  "name": "NFT Social - Base Mini App",
+  "version": "1.0.0",
+  "description": "A viral social NFT marketplace built with MiniKit for Base App",
+  "icon": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+  "homeUrl": "https://basedrop-miniapp.vercel.app",
+  "capabilities": ["wallet", "identity", "transactions"],
+  "permissions": ["read:user", "write:transactions"],
+  "sdk": {
+    "version": "1.0.0",
+    "type": "farcaster-miniapp"
+  }
+}
