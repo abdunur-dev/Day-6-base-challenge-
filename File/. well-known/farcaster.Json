@@ -1,0 +1,29 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9",
+    "payload": "eyJkb21haW4iOiJiYXNlZHJvcC1taW5pYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg..."
+  },
+  "frame": {
+    "version": "1",
+    "name": "NFT Social - Base Mini App",
+    "iconUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "homeUrl": "https://basedrop-miniapp.vercel.app",
+    "imageUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "buttonTitle": "Explore NFTs",
+    "splashImageUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "splashBackgroundColor": "#E8F5E9",
+    "webhookUrl": "https://basedrop-miniapp.vercel.app/api/frame"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "NFT Social - Base Mini App",
+    "iconUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "homeUrl": "https://basedrop-miniapp.vercel.app",
+    "imageUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "buttonTitle": "Explore NFTs",
+    "splashImageUrl": "https://basedrop-miniapp.vercel.app/cute-kawaii-character-in-jar-pastel-colors.jpg",
+    "splashBackgroundColor": "#E8F5E9",
+    "webhookUrl": "https://basedrop-miniapp.vercel.app/api/frame"
+  }
+}
