@@ -15,12 +15,12 @@ export async function POST(request: Request) {
     // Return frame response with updated image and stats
     return NextResponse.json({
       version: "vNext",
-      image: `${process.env.NEXT_PUBLIC_URL || "https://your-app-url.vercel.app"}/api/frame/image?stats=${stats.packsSoldToday}`,
+      image: `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/api/frame/image?stats=${stats.packsSoldToday}`,
       buttons: [
         {
           label: "Explore NFTs",
           action: "link",
-          target: `${process.env.NEXT_PUBLIC_URL || "https://your-app-url.vercel.app"}/explore`,
+          target: `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/explore`,
         },
         {
           label: `${stats.packsSoldToday} Packs Sold Today!`,
