@@ -1,0 +1,17 @@
+{
+  "name": "NFT Social",
+  "version": "1.0.0",
+  "description": "A viral social NFT marketplace for Base App",
+  "icon": "/icon.png",
+  "splashScreen": {
+    "backgroundColor": "#d4ff00",
+    "imageUrl": "/splash.png"
+  },
+  "permissions": ["wallet", "identity", "social"],
+  "frames": {
+    "home": "/",
+    "profile": "/profile",
+    "explore": "/explore",
+    "nft": "/nft/[id]"
+  }
+}
