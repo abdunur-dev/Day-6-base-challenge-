@@ -14,7 +14,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "NFT Social - Base Mini App",
   description: "A viral social NFT marketplace built with MiniKit for Base App",
-  generator: "v0.app",
+  manifest: "/sdk-manifest.json",
   openGraph: {
     title: "NFT Social - Base Mini App",
     description: "Buy Random NFT Packs, Broaden Your Collection",
@@ -22,13 +22,14 @@ export const metadata: Metadata = {
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": `${process.env.NEXT_PUBLIC_URL || "https://your-app-url.vercel.app"}/cute-kawaii-character-in-jar-pastel-colors.jpg`,
+    "fc:frame:image": `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/cute-kawaii-character-in-jar-pastel-colors.jpg`,
     "fc:frame:button:1": "Explore NFTs",
     "fc:frame:button:1:action": "link",
-    "fc:frame:button:1:target": `${process.env.NEXT_PUBLIC_URL || "https://your-app-url.vercel.app"}/explore`,
+    "fc:frame:button:1:target": `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/explore`,
     "fc:frame:button:2": "View Stats",
     "fc:frame:button:2:action": "post",
-    "fc:frame:post_url": `${process.env.NEXT_PUBLIC_URL || "https://your-app-url.vercel.app"}/api/frame`,
+    "fc:frame:post_url": `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/api/frame`,
+    "farcaster:manifest": `${process.env.NEXT_PUBLIC_URL || "https://basedrop-miniapp.vercel.app"}/.well-known/farcaster.json`,
   },
 }
 
@@ -39,6 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/sdk-manifest.json" />
+      </head>
       <body className={`font-sans antialiased`}>
         <Providers>
           {children}
